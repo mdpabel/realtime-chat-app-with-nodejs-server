@@ -12,9 +12,9 @@ Our chat app is divded into 2 part :- <br />
 2-	Client side : creating the android app and implementing socket.io for client. <br />
 
 # System Requirements
-git v2.13 or greater
-NodeJS ^10.13 || 12 || 14 || 15
-npm v6 or greater
+git v2.13 or greater<br />
+NodeJS ^10.13 || 12 || 14 || 15<br />
+npm v6 or greater<br />
 
 # Setup <br />
 After you've made sure to have the correct things (and versions) installed, you should be able to just run a few commands to get set up: <br />
