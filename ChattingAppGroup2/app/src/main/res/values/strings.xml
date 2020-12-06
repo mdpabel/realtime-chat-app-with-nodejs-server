@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Chatting App (Group 2)</string>
+    <string name="go_to_chat">Go to chat</string>
+    <string name="enter_your_nickname">Enter your nickname!</string>
+    <string name="send">send</string>
+    <string name="your_message">your message</string>
+</resources>

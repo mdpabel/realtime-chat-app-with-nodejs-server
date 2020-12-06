@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="200dp"
+        android:textColor="@color/text"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:text="Chatting App (Group 2)"
+        android:textSize="34dp"
+        android:gravity="center_horizontal" />
+
+    <EditText
+       android:id="@+id/nickname"
+       android:layout_centerInParent="true"
+       android:textSize="24dp"
+       android:hint="@string/enter_your_nickname"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_below="@+id/nickname"
+        android:id="@+id/enterchat"
+        android:text="@string/go_to_chat"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
